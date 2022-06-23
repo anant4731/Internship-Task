@@ -1,0 +1,46 @@
+.top__nav {
+  width: 98%;
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+
+.control {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+select {
+  color: blue;
+  border: 0;
+  width: 6rem;
+  cursor: pointer;
+  height: 2rem;
+  display: flex;
+  border-radius: 7px;
+}
+
+.ham {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  margin: 6px 0;
+  
+}
+
+.ham__container
+{
+  display: none;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .ham__container{
+    display: block;
+  }
+}

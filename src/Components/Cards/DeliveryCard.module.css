@@ -1,0 +1,28 @@
+.delivery__card {
+  /* border-left: 7px solid red; */
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  border-right: 1px solid red;
+  border-radius: 20px;
+  height: 5rem;
+  width: 16rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.delivery__card_div1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delivery__card_content
+{
+    font-size: 0.8rem;
+    padding: 5px 8px;
+    margin: 0;
+}
